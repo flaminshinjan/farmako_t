@@ -1,4 +1,4 @@
-# Farmako T iOS App
+# Battery Level Method Call Task
 
 This is the iOS app for Farmako T, integrating Flutter to provide specific functionalities. This app demonstrates communication between Flutter and native iOS code to retrieve the device's battery level.
 
