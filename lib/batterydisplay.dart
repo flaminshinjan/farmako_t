@@ -34,7 +34,7 @@ class _BatteryDisplayState extends State<BatteryDisplay> {
                   ),
                 ),
                 onPressed: getBatteryLevel,
-                child: const Text('Get Battery Level', style: ,),
+                child: const Text('Get Battery Level', ),
               ),
               const SizedBox(height: 15.0),
               Text(
