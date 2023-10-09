@@ -35,7 +35,7 @@ import Flutter
         device.isBatteryMonitoringEnabled = true
         
         if device.batteryState == UIDevice.BatteryState.unknown {
-            return -1
+            return 100
         } else {
             return Int(device.batteryLevel * 100)
         }
