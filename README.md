@@ -81,9 +81,13 @@ open Runner.xcworkspace
 
 That's it! You have successfully built and run the iOS app integrated with Flutter to display the battery level.
 
-## Screenshots & Recordings:
+## Screenshots:
 
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+  <img src="https://github.com/flaminshinjan/farmako_t/assets/116586681/5e7706fa-7934-461b-9171-0e6d005ac565.png" alt="Screenshot 2" width="300">
+  <img src="https://github.com/flaminshinjan/farmako_t/assets/116586681/eefc6d57-d36b-47e5-b043-dd09ab8bf3bf.png" alt="Screenshot 3" width="300">
+</div>
+
+## Recording:
 https://github.com/flaminshinjan/farmako_t/assets/116586681/b654ddae-39cd-4b19-8845-1604bde00c21
-![IMG_1266](https://github.com/flaminshinjan/farmako_t/assets/116586681/5e7706fa-7934-461b-9171-0e6d005ac565){:height="50%" width="50%"}
-![IMG_1267](https://github.com/flaminshinjan/farmako_t/assets/116586681/eefc6d57-d36b-47e5-b043-dd09ab8bf3bf){:height="50%" width="50%"}
 
