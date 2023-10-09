@@ -39,8 +39,9 @@ class _BatteryDisplayState extends State<BatteryDisplay> {
   }
 
   Future getBatteryLevel() async {
+    final arguments = {'name': 'John Doe'};
     final int newBatteryLevel =
-        await batteryChannel.invokeMethod('getBatteryLevel');
+        await batteryChannel.invokeMethod('getBatteryLevel', arguments);
     setState(() => batteryLevel = '$newBatteryLevel % ');
   }
 }

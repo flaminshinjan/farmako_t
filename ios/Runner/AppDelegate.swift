@@ -19,7 +19,9 @@ import Flutter
           (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
           switch call.method {
           case "getBatteryLevel":
-              // Handle the "getBatteryLevel" method call
+              guard let args = call.arguments as? [String: String] else {return}
+              let name = args["name"]!
+              result(self.recieveBatteryLevel())
           default:
               result(FlutterMethodNotImplemented)
           }
@@ -28,4 +30,16 @@ import Flutter
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
+    private func recieveBatteryLevel() -> Int {
+        let device = UIDevice.current
+        device.isBatteryMonitoringEnabled = true
+        
+        if device.batteryState == UIDevice.BatteryState.unknown {
+            return -1
+        } else {
+            return Int(device.batteryLevel * 100)
+        }
+    }
+
 }
+
