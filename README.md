@@ -84,6 +84,6 @@ That's it! You have successfully built and run the iOS app integrated with Flutt
 ## Screenshots & Recordings:
 
 https://github.com/flaminshinjan/farmako_t/assets/116586681/b654ddae-39cd-4b19-8845-1604bde00c21
-![IMG_1266](https://github.com/flaminshinjan/farmako_t/assets/116586681/5e7706fa-7934-461b-9171-0e6d005ac565)
-![IMG_1267](https://github.com/flaminshinjan/farmako_t/assets/116586681/eefc6d57-d36b-47e5-b043-dd09ab8bf3bf)
+![IMG_1266](https://github.com/flaminshinjan/farmako_t/assets/116586681/5e7706fa-7934-461b-9171-0e6d005ac565){:height="50%" width="50%"}
+![IMG_1267](https://github.com/flaminshinjan/farmako_t/assets/116586681/eefc6d57-d36b-47e5-b043-dd09ab8bf3bf){:height="50%" width="50%"}
 
